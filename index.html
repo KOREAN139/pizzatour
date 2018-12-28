@@ -1,7 +1,8 @@
 <head>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
     <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
     <link href="./style.css" rel="stylesheet" />
 </head>
@@ -25,8 +26,8 @@
             PIZZA TOUR
         </h1>
     </header>
-    <section class="containers">
-        <div class="container is-rounded is-center">
+    <section>
+        <div class="nes-container is-rounded is-center">
             <p>Pizza, the 'only food' which never gets old.</p>
             <p>I'll list up some pizza shops i've been (and some comments later!).</p>
             <br>
@@ -34,27 +35,27 @@
             
             <div>
                 <label>
-                    <input type="radio" class="radio" name="location" onClick="toggleShow('#sinchon');"/>
+                    <input type="radio" class="nes-radio" name="location" onClick="toggleShow('#sinchon');"/>
                     <span>Sinchon</span>
                 </label>
                 <label>
-                    <input type="radio" class="radio" name="location" onClick="toggleShow('#hongdae');"/>
+                    <input type="radio" class="nes-radio" name="location" onClick="toggleShow('#hongdae');"/>
                     <span>Hongdae</span>
                 </label>
                 <label>
-                    <input type="radio" class="radio" name="location" onClick="toggleShow('#itaewon');"/>
+                    <input type="radio" class="nes-radio" name="location" onClick="toggleShow('#itaewon');"/>
                     <span>Itaewon</span>
                 </label>
                 <label>
-                    <input type="radio" class="radio" name="location" onClick="toggleShow('#gangnam');"/>
+                    <input type="radio" class="nes-radio" name="location" onClick="toggleShow('#gangnam');"/>
                     <span>Gangnam</span>
                 </label>
             </div>
         </div>
     </section>
     
-    <section class="containers">
-        <div class="container" id="sinchon" style="display: none">
+    <section>
+        <div class="nes-container is-rounded" id="sinchon" style="display: none">
             <div>
                 Beezza <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/beer.png"/> <img class="mini-badge" src="./badges/delivery.png"/>
             </div>
@@ -123,7 +124,7 @@
                 Yellow pizza <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/delivery.png"/>
             </div>
         </div>
-        <div class="container" id="hongdae" style="display: none">
+        <div class="nes-container is-rounded" id="hongdae" style="display: none">
             <div>
                 Marble pub <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/beer.png"/> <img class="mini-badge" src="./badges/delivery.png"/>
             </div>
@@ -144,7 +145,7 @@
                 TRAVELnART pizza <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/beer.png"/> <img class="mini-badge" src="./badges/delivery.png"/>
             </div>
         </div>
-        <div class="container" id="itaewon" style="display: none">
+        <div class="nes-container is-rounded" id="itaewon" style="display: none">
             <div>
                 Motorcity <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/beer.png"/>
             </div>
@@ -153,7 +154,7 @@
                 Pipe <img class="mini-badge" src="./badges/cocacola.png"/> <img class="mini-badge" src="./badges/beer.png"/>
             </div>
         </div>
-        <div class="container" id="gangnam" style="display: none">
+        <div class="nes-container is-rounded" id="gangnam" style="display: none">
             <div>
                 Dochi pizza <img class="mini-badge" src="./badges/cocacola.png"/>
             </div>
@@ -167,7 +168,11 @@
     </section>
     
     <footer class="footer">
-        <p>Pizza Ol Day<span>-</span><a href="https://github.com/KOREAN139" target="_blank">@KOREAN139</a></p>
+        <p>
+            Pizza Ol Day
+            <span>-</span>
+            <a href="https://github.com/KOREAN139" target="_blank">@KOREAN139</a>
+        </p>
         <a href="https://github.com/KOREAN139/pizzatour/issues/new">Any recommendations?</a>
     </footer>
 </body>
